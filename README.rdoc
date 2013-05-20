@@ -21,6 +21,13 @@ git-deploy requires the Ruby gems <code>net-ssh</code>, <code>net-sftp</code>, <
 You can install them like so:
 
   sudo gem install net-ssh net-sftp net-scp
+  
+Now install git-deploy; go to a new dir and:
+
+    $ git clone git@github.com:Juan-Facundo/git-deploy.git
+    $ cd git-deploy
+    $ sudo cp bin/git-deploy /usr/local/bin (ensure your $PATH)
+
 
 = Usage
 
