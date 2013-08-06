@@ -65,12 +65,12 @@ After you have commited your code to the repository. You can run
 
 The configuration for a site has additional and optional options:
 
-  in some server "passive: true" is needed for correct working
-
 * <tt>skip</tt>: +true+ or +false+ (default). Whether to skip the configuration
 * <tt>debug_mode</tt>: +true+ or +false+ (default).  For FTP only. Outputs debugging information
 * <tt>passive</tt>:  +true+ or +false+ (default). For FTP only. Enable passive connection.
 * <tt>local_path</tt>: _string_.  Only consider files to upload in a particular local path.
+
+  in some server "passive: true" is needed for correct working
 
 = How It Works
 
